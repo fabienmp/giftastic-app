@@ -57,6 +57,7 @@ $(document).ready(function () {
                         $("#giphy-images").append(imageDiv);
                     });
                     applyStateClickEvents();
+                    $('.materialboxed').materialbox();
                 });
 
   
