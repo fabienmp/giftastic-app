@@ -25,7 +25,7 @@ $(document).ready(function () {
             let chipText = $(chip).text();
             let selectedTag = chipText.substring(0, chipText.length - 5);
 
-            let queryURL = "http://api.giphy.com/v1/gifs/search?q='" + selectedTag + "'&api_key=dc6zaTOxFJmzC&limit=" + $('#pageSizeSelect').val();
+            let queryURL = "https://api.giphy.com/v1/gifs/search?q='" + selectedTag + "'&api_key=dc6zaTOxFJmzC&limit=" + $('#pageSizeSelect').val();
 
             $.ajax({
                     url: queryURL,
